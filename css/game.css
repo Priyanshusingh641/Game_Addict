@@ -1,0 +1,172 @@
+.sec_one
+{
+    background-image: url(..//image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cont_one i
+{
+    padding-left: 10px;
+}
+
+.btn_one button
+{
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+nav
+{
+    box-shadow: 0px 0px 2px 2px red;
+}
+nav
+{
+    
+}
+nav ul li a:hover
+{
+    background-color: red;
+    opacity: 0.7;
+    transition: 0.9s;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    padding: 0;
+}
+.cont_one span
+{
+    color: red;
+}
+.cont_one a
+{
+    background-color: red;
+    
+}
+.sec_two
+{
+    background-image: linear-gradient(to right, black,rgb(196, 72, 72),black);
+}
+.categories a
+{
+    background-color: black;
+}
+.circle img
+{
+    border: 2px solid red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+.cont_two
+{
+   /* margin: 0 auto !important;  */
+    width: 90%;
+    
+}
+/* .bgmi
+{
+    background-image: url(..//image/bgmi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.takken
+{
+    background-image: url(..//image/takken.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cod
+{
+    background-image: url(..//image/cod.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.freefire
+{
+    background-image: url(..//image/free.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+.popular_game img
+{
+    height: 80%;
+}
+.popular_game_two img
+{
+    height: 80%;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner video
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.banner .content
+{
+    position: relative;
+    z-index: 1;
+
+
+}
+.content h1
+{
+    font-size: 5em;
+}
+.all a
+{
+    border: 2px solid red;
+    border-radius: 25%;
+    margin-left: 1rem;
+
+}
+.all a:hover
+{
+    background-color: ;
+    
+}
+.pad img
+{
+    margin-top: 24px;
+}
+.sec_three
+{
+    background-image: url(..//image/bgmi_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cont_three a
+{
+    padding-left: 12px;
+}
+.icon_two i
+{
+    padding-left: 24px;
+}
+.icon_two a
+{
+    color: #ffffff;
+}
+.rock
+{
+    margin-left: 12px;
+}
+@media (max-width: 991px)
+{
+    .btn_one button
+{
+     float: none;
+}
+}
